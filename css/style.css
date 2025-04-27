@@ -4,33 +4,26 @@
 header {
   padding: 44px 0px;
 }
-
 header .row {
   overflow: hidden;
 }
-
 header .row .logo {
   float: left;
 }
-
 header .row nav {
   float: right;
   margin-top: 4px;
 }
-
 header .row nav ul {
   overflow: hidden;
 }
-
 header .row nav ul li {
   float: left;
   margin-left: 40px;
 }
-
 header .row nav ul li a {
   color: #000000;
   font-size: 17px;
-  font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
@@ -42,28 +35,22 @@ header .row nav ul li a {
   background-position: top right;
   background-repeat: no-repeat;
 }
-
 .hero-section .div-item {
   padding: 100px 0px;
   width: 592px;
 }
-
 .hero-section .div-item h1 {
   font-size: 64px;
-  font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
-
 .hero-section .div-item p {
   color: #4d4d4d;
   font-size: 20px;
-  font-style: normal;
   font-weight: 400;
   line-height: normal;
   padding: 32px 0px;
 }
-
 .hero-section .div-item a {
   padding: 16px 24px;
   border-radius: 4px;
@@ -72,9 +59,6 @@ header .row nav ul li a {
   text-align: center;
   background: #ff9d02;
   font-size: 24px;
-  font-style: normal;
-  font-weight: 400px;
-  line-height: 100%;
   min-width: 283px;
   color: #ffffff;
 }
@@ -86,52 +70,40 @@ header .row nav ul li a {
 .about {
   padding: 140px 0;
 }
-
 .about .col-6 {
   width: calc(50% - 63.5px);
 }
-
 .about .row {
   overflow: hidden;
 }
-
 .about .col1 {
   float: left;
 }
-
 .about .col2 {
   float: right;
 }
-
 .about .image img {
   width: 100%;
 }
-
 .about .item-text {
   margin: 13px 0;
 }
-
 .about .item-text h2 {
   font-size: 48px;
-  font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
-
 .about .item-text h2 span {
   color: #ff9d02;
   margin-left: 16px;
 }
-
 .about .item-text p {
   margin: 16px 0;
   color: #717171;
   font-size: 20px;
-  font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
-
 .about .item-text a {
   display: block;
   width: 180px;
@@ -142,13 +114,9 @@ header .row nav ul li a {
   text-align: center;
   color: #ff9d02;
   font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 100%;
   padding: 16px 24px;
   transition: all 0.3s;
 }
-
 .about .item-text a:hover {
   color: #fff;
   background-color: #ff9d02;
@@ -159,31 +127,25 @@ header .row nav ul li a {
 .blogs {
   padding: 64px 0;
 }
-
 .blogs h2 {
   text-align: center;
   font-size: 48px;
-  font-style: normal;
   font-weight: 700;
   line-height: normal;
   margin-bottom: 40px;
 }
-
 .blogs h2 span {
   color: #ff9d02;
   margin-left: 16px;
 }
-
 .blogs .row {
   display: inline-block;
 }
-
 .blogs .col-4 {
   width: calc(33.33333333% - 16px);
   float: left;
   padding: 0;
 }
-
 .blogs .col-4 .item {
   border-radius: 16px;
   background: #fff;
@@ -191,45 +153,32 @@ header .row nav ul li a {
   box-shadow: 0px 4px 35px 0px rgba(0, 0, 0, 0.2);
   transition: all 0.4s;
 }
-
-.blogs .m-c {
-  margin: 0 24px;
-}
-
 .blogs .col-4 .item:hover {
   transform: translateY(80px);
 }
-
 .blogs .col-4 .item img {
   width: 100%;
 }
-
 .blogs .col-4 .item .text {
   padding: 24px;
 }
-
-.blogs .col-4 .item h4 {
+.blogs .col-4 .item .text h4 {
   font-size: 24px;
-  font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
-
-.blogs .col-4 .item h5 {
+.blogs .col-4 .item .text h5 {
   color: #57595b;
   font-size: 20px;
-  font-style: normal;
   font-weight: 700;
   line-height: normal;
   margin: 10px 0;
 }
-
-.blogs .col-4 .item a {
+.blogs .col-4 .item .text a {
   color: #fff;
   display: block;
   text-align: center;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 100%;
   border-radius: 4px;
@@ -240,8 +189,7 @@ header .row nav ul li a {
   padding: 11px;
   transition: all 0.3s;
 }
-
-.blogs .col-4 .item a:hover {
+.blogs .col-4 .item .text a:hover {
   border-color: #ff9d02;
   background: transparent;
   color: #ff9d02;
@@ -259,14 +207,13 @@ header .row nav ul li a {
   text-align: center;
   font-family: Merienda;
   font-size: 48px;
-  font-style: normal;
+
   font-weight: 700;
   line-height: normal;
-  text-align: center;
+
   margin-bottom: 40px;
 }
-
-.our-food .contend-h2 span {
+.our-food .contend-h2 h2 span {
   color: #ff9d02;
 }
 
@@ -285,8 +232,7 @@ header .row nav ul li a {
 .our-food .m-l {
   margin-left: auto;
 }
-
-#sss {
+.our-food #sss {
   margin: 0 24px;
 }
 
@@ -307,8 +253,7 @@ header .row nav ul li a {
   background: #fff;
   box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.2);
 }
-
-.our-food .image {
+.our-food .items .image {
   width: 88px;
   height: 88px;
   margin: auto;
@@ -318,16 +263,13 @@ header .row nav ul li a {
   padding-top: 20px;
   border: 2px solid transparent;
 }
-
-.our-food .m-r .image {
+.our-food .items .image.m-r {
   padding-top: 28px;
 }
-
-.our-food .items:hover .image {
+.our-food .items .image:hover {
   border-color: #ff9d02;
 }
-
-.our-food .content-h3-p h3 {
+.our-food .items .content-h3-p h3 {
   margin-bottom: 16px;
 }
 
@@ -346,22 +288,16 @@ header .row nav ul li a {
   font-weight: 700;
   margin-bottom: 32px;
 }
-
-.say-5 .row {
-  text-align: center;
-}
-
 .say-5 h3 span {
   color: #ff9d02;
+}
+.say-5 .row {
+  text-align: center;
 }
 
 .say-5 .col3 {
   text-align: center;
   display: inline-block;
-}
-
-.say-5 .m {
-  margin: 0 24px;
 }
 
 .say-5 .col3 .text {
@@ -379,7 +315,7 @@ header .row nav ul li a {
   color: #000;
   text-align: center;
   font-size: 14px;
-  font-style: normal;
+
   font-weight: 700;
   margin-bottom: 8px;
 }
@@ -388,7 +324,7 @@ header .row nav ul li a {
   color: #202020;
   text-align: center;
   font-size: 9px;
-  font-style: normal;
+
   font-weight: 400;
 }
 
@@ -435,20 +371,17 @@ footer .para {
   font-weight: 400;
   padding-top: 24px;
 }
-
-.grob-text h3 {
+footer .grob-text h3 {
   font-size: 24px;
   font-weight: 400;
 }
-
-.grob-text h4 {
+footer .grob-text h4 {
   color: #484848;
   font-size: 16px;
   font-weight: 400;
   margin-top: 8px;
 }
-
-form input {
+footer form input {
   border-radius: 2px;
   border: 1px solid #ff9d02;
   height: 40px;
@@ -460,8 +393,7 @@ form input {
   float: left;
   margin-top: 16px;
 }
-
-form button {
+footer form button {
   border-radius: 4px;
   border: 1px solid #ff9d02;
   background: #ff9d02;
